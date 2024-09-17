@@ -7,39 +7,43 @@
     <title>AI Poem Generator</title>
   </head>
   <body>
-    <header>
-      <h1>AI Poem Generator</h1>
-    </header>
-    <main>
-      <form action="">
-        <input
-          type="text"
-          placeholder="Enter the topic of the poem"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        The poem will go here <br />
-        The poem will go here
-      </div>
-    </main>
+    <div class="container">
+      <header>
+        <h1>AI Poem Generator</h1>
+      </header>
+      <main>
+        <form action="">
+          <input
+            type="text"
+            placeholder="Enter the topic of the poem"
+            autofocus
+            required
+            autocomplete="off"
+            class="directions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="poem">
+          The poem will go here <br />
+          The poem will go here
+        </div>
+      </main>
 
-    <footer>
-      This project was coded by
-      <a href="https://github.com/jenastewart" target="_blank">Jena Stewart,</a>
-      is open-sourced on
-      <a href="https://github.com/jenastewart/poem-generator" target="_blank"
-        >GitHub</a
-      >
-      and hosted on
-      <a href="https://jenas-poem-generator.netlify.app/" target="_blank"
-        >Netlify</a
-      >
-    </footer>
-
+      <footer>
+        This project was coded by
+        <a href="https://github.com/jenastewart" target="_blank"
+          >Jena Stewart,</a
+        >
+        is open-sourced on
+        <a href="https://github.com/jenastewart/poem-generator" target="_blank"
+          >GitHub</a
+        >
+        and hosted on
+        <a href="https://jenas-poem-generator.netlify.app/" target="_blank"
+          >Netlify</a
+        >
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
